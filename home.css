@@ -1,0 +1,92 @@
+/* Base styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Navigation */
+#mainnav {
+    padding: 20px;
+    align-items: center;
+}
+
+#mainnav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+  #mainnav li a {
+      text-decoration: none;
+      color: teal;
+      font-weight: bold;
+      padding: 8px 16px;
+      border: 2px solid teal;
+      border-radius: 6px;
+      transition: transform 0.2s ease, background-color 0.3s ease;
+  }
+
+  #mainnav li a:hover {
+      background-color: teal;
+      color: white;
+      transform: translateY(-2px);
+  }
+
+  #mainnav li a:active {
+      transform: translateY(1px);
+  }
+
+  .logo {
+    height: 100px;
+    width: auto;
+    margin-right: 30px;
+}
+
+
+  /* Welcome Section */
+.welcome-section {
+    background-color: teal;
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+    margin: 2rem;
+    border-radius: 8px;
+}
+
+/* Features Section */
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.feature {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.feature h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: teal;
+}
+
+.feature p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.feature span {
+    display: block;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+
+

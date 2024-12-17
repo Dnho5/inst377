@@ -1,0 +1,63 @@
+body {
+    background-color: bisque;
+}
+#mainnav {
+    padding: 20px;
+    align-items: center;
+}
+
+#mainnav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+  #mainnav li a {
+    background-color: white;
+      text-decoration: none;
+      color: teal;
+      font-weight: bold;
+      padding: 8px 16px;
+      border: 2px solid teal;
+      border-radius: 6px;
+      transition: transform 0.2s ease, background-color 0.3s ease;
+  }
+
+  #mainnav li a:hover {
+      background-color: teal;
+      color: white;
+      transform: translateY(-2px);
+  }
+
+  #mainnav li a:active {
+      transform: translateY(1px);
+  }
+
+#missionbox {
+    background-color: white;
+    margin: auto;
+    width: 20%;
+    border: 2px solid black;
+    text-align: center;
+}
+#purposebox {
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    border: 2px solid black;
+    text-align: center;
+}
+#contactbox {
+    background-color: turquoise;
+    width: 20%;
+    border: 2px solid black;
+    text-align: center;
+    float: right;
+}
+#instructbox {
+    background-color: white;
+    width: 40%;
+    text-align: center;
+    border: 2px solid black;
+    margin: auto;
+}
